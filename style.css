@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #bfbfbf;
+}
+div{
+    width: 50%;
+    height: 400px;
+    background-color: #527a7a;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 25px;
+    font-family: cursive;
+    color: #cccccc;
+}
+h2{
+    margin-left: 30%;
+    padding-top: 10px;
+    font-family: cursive;
+    color: #cccccc;
+    float: left;
+    text-decoration: underline;
+}
+.pen{
+    font-size: 23px;
+    padding-top: 33px;
+    font-family: cursive;
+    color: #cccccc;
+    float:left;
+    margin-left: 19px;
+}
+input{
+    width: 60%;
+    height: 20px;
+    margin: auto;
+    background: #cccccc;
+    color: #527a7a;
+    margin-left: 15%;
+    border-radius: 5px;
+}
+button{
+    background: #527a7a;
+    border-radius: 2px;
+    height: 27px;
+    color: #cccccc;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.plans{
+    background-color: #cccccc;
+    height: 200px;
+    width: 70%;
+    margin-top: 20px;
+}
+.rem{
+    color: red;
+    border-radius: 50%;
+    background: #cccccc;
+    cursor: pointer;
+    background-color: #bfbfbf;
+    margin-left: 4px;
+    float: right;
+    height: 24px;
+}
+li{
+    font-family: cursive;
+    padding-left: 4px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    cursor: pointer;
+    color: #404040;
+    border-bottom: 1px solid #404040;
+}
+li:hover{
+    background-color: #264d73;
+    color: #f2f2f2;
+    transition: .2s;
+}
+.rem:hover{
+    background-color: red;
+    color: #f2f2f2;
+    transition: .2s;
+}
+h3{
+    float: right;
+    padding-right: 5px;
+    margin-top: 34px;
+}
+button:hover{
+    background:#cccccc;
+    color: #527a7a;
+    transition: .2s;
+
+}
+@media (min-width: 840px){
+
+    div{
+        width: 50%;
+        height: 600px;
+    }
+    .plans{
+        height: 400px;
+    }
+
+}
+@media (max-width: 510px){
+
+    div{
+        width: 70%;
+        height: 600px;
+    }
+    .plans{
+        height: 400px;
+    }
+
+}
+@media (max-width: 426px){
+
+    div{
+        width: 90%;
+        height: 600px;
+    }
+    .plans{
+        width: 80%;
+        height: 400px;
+    }
+    h2{
+        margin-left: 24%;
+    }
+
+}
